@@ -1,6 +1,6 @@
 body {
 	background-color: #2d2d2f;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 header {
@@ -34,11 +34,42 @@ header {
 .mainFunctions {
 	display: flex;
 	align-items: center;
-	font-size: 45px;
+	font-size: 40px;
 	color: white;
 	text-shadow: 3px 3px 3px black;
 }
 
 h6 {
-	margin-left: 65px;
+	margin-left: 80px;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+}
+
+.search__bar {
+	color: white;
+	background: #3a3a3a;
+	width: 225px;
+	height: 25px;
+	margin-left: 100px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 3px 2px #adadad;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.search__button {
+	margin: 0.5em;
+	border-radius: 50%;
+	border: none;
+	height: 44px;
+	width: 44px;
+	outline: none;
+	cursor: pointer;
+	background: #3a3a3a;
+	color: #ffffff;
 }
