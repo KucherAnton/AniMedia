@@ -1,5 +1,6 @@
 body {
 	background-color: #2d2d2f;
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -12,24 +13,32 @@ header {
 	left: 0;
 }
 
-.firstHeader {
+.header {
 	max-width: 400px;
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
 }
 
-.firstHeader__icon {
+.header__icon {
 	width: 31%;
 }
 
-.firstHeader__siteName {
+.header__siteName {
 	color: white;
 	text-shadow: 3px 3px 3px black;
 	margin-left: 25px;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .mainFunctions {
 	display: flex;
+	align-items: center;
+	font-size: 45px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+h6 {
+	margin-left: 65px;
 }
