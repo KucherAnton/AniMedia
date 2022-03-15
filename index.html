@@ -10,10 +10,10 @@
 			href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" type="text/css" href="/styles/style.css" />
+		<link rel="stylesheet" type="text/css" href="./styles/style.css" />
 		<title>AniMedia | Аниме на любой вкус</title>
-		<link rel="icon" type="image/x-icon" href="/img/fav.ico" />
-		<!--Спросить у Валеры насчет favicon и position и display (нужные)-->
+		<link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+		<!--Спросить у Валеры насчет favicon и position и display (нужные) и почему не работает гидхаб стили-->
 	</head>
 	<body>
 		<header>
@@ -26,13 +26,13 @@
 				<p class="header__siteName">AniMedia</p>
 			</div>
 			<div class="mainFunctions">
-				<h6>Главная</h6>
+				<h6>Топ 100</h6>
 				<h6>Каталог</h6>
 				<h6>Профиль</h6>
 			</div>
 			<div class="search">
 				<input class="search__bar" type="text" placeholder="Поиск" />
-				<button class="search__button">
+				<button type="submit" class="search__button">
 					<svg
 						stroke="currentColor"
 						fill="currentColor"
@@ -50,11 +50,21 @@
 				</button>
 			</div>
 			<div class="profile">
-				<button class="profile__button">
+				<!-- <button class="profile__button">
 					<img class="profile__image" src="/img/profileimage.png" />
-				</button>
+				</button> -->
 			</div>
 		</header>
+		<main>
+			<div>
+				<h4>Добро пожаловать!</h4>
+				<h5>
+					Вы зашли на лучший сайт для просмотра вашего любимого аниме в ДНР. Тут
+					вы найдете тайтлы на любой вкус и цвет, удобный каталог с фильтром,
+				</h5>
+			</div>
+		</main>
+		<footer></footer>
 		<script type="module" src="/scripts/app.js"></script>
 	</body>
 </html>
